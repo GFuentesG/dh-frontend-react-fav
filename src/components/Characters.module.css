@@ -1,0 +1,50 @@
+/* Cambiar el contenedor de las tarjetas para que use flexbox */
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Esto permite que las tarjetas se ajusten a varias filas si el espacio lo requiere */
+  gap: 1rem; /* Espacio entre las tarjetas */
+  justify-content: center; /* Centrar las tarjetas en la página */
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px; /* Limitar el ancho de las tarjetas para que se acomoden bien */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+/* Asegurarse de que las imágenes se ajusten bien */
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.card p {
+  margin: 0.2rem 0; /* Márgenes pequeños entre los párrafos */
+  font-size: 1rem;
+}
+
+/* Estilo de los títulos */
+.titleCard {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: black;
+}
+
+.title, .subtitle {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+}

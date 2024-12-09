@@ -1,0 +1,35 @@
+/* navbar.module.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(41, 41, 247); /* Fondo oscuro para la barra */
+    padding: 10px 20px; /* Espaciado alrededor de la barra */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+  }
+  
+  .navbarLinks {
+    display: flex; /* Alinea los elementos de la lista horizontalmente */
+    justify-content: flex-end; /* Coloca los elementos hacia el lado derecho */
+    list-style: none; /* Elimina los puntos de lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarLinks li {
+    margin-left: 20px; /* Espacio entre los elementos */
+  }
+  
+  .navbarLinks a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    padding: 10px; /* Espaciado alrededor del texto */
+  }
+  
+  .navbarLinks a:hover {
+    background-color: #8b8a8a; /* Fondo cuando pasas el cursor sobre los enlaces */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
