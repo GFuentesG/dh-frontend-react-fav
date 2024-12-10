@@ -1,7 +1,7 @@
 /* Cambiar el contenedor de las tarjetas para que use flexbox */
 .cardsContainer {
   display: flex;
-  flex-wrap: wrap; /* Esto permite que las tarjetas se ajusten a varias filas si el espacio lo requiere */
+  flex-wrap: wrap; /* Permite que las tarjetas se ajusten a varias filas si el espacio lo requiere */
   gap: 1rem; /* Espacio entre las tarjetas */
   justify-content: center; /* Centrar las tarjetas en la página */
 }

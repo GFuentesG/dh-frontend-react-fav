@@ -9,7 +9,7 @@ afterEach(() => {
 });
 
 describe("Test <Login />", () => {
-  test("Debe renderizar el formulario correctamente", () => {
+  test("Debe renderizar el formulario Login correctamente", () => {
     // Arrange
 		render(<BrowserRouter>  {/* *** Envolvemos el componente Login con BrowserRouter */}
       <Login />

@@ -37,7 +37,9 @@ export const FavoriteProvider = ({ children }) => {
             console.log('ya esta en favoritos', character);
         }
     }
-    //buscar dentro de favorites con find el elemento y si existe agregarle uno y si no existe lo agregamos, buscar dentro del array de favorite, devuelve un booleano y con un if un .map para recorrer para llegar a la propiedad y sumarle uno y si no en addtofavorite 
+    //buscar dentro de favorites con find el elemento y si existe agregarle uno y si no existe lo agregamos, 
+    //buscar dentro del array de favorite, devuelve un booleano y con un if un .map para recorrer para llegar 
+    //a la propiedad y sumarle uno y si no en addtofavorite 
 
     const deleteToFavorite = (id) => {
         setFavorite((prevState) => {
