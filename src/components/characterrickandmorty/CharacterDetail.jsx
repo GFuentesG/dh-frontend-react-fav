@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
-import { getCharacterDetails } from '../services/getCharacterDetails';
+import { getCharacterDetails } from '../../services/getCharacterDetails';
 
 const CharacterDetail = () => {
 

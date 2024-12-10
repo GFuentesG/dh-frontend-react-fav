@@ -6,7 +6,7 @@ import About from "../pages/about/About";
 import Login from "../pages/login/Login";
 import Dashboard from "../pages/dashboard/Dashboard";
 import Character from "../pages/character/Character";
-import ProtectedRoute from "../components/ProtectedRoute";
+import ProtectedRoute from "../components/protectedroute/ProtectedRoute";
 import { useState } from "react";
 
 const Router = ({ isLoggedIn, onLogin }) => {

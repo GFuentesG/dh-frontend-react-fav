@@ -1,5 +1,5 @@
 import React from 'react'
-import CharacterSpecial from '../../components/CharacterSpecial'
+import CharacterSpecial from '../../components/charactersupermariobros/CharacterSpecial'
 
 const Dashboard = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { fetchAllCharacters } from '../services/getCharacterSpecial';
+import { fetchAllCharacters } from '../../services/getCharacterSpecial';
 import styles from './CharacterSpecial.module.css'
-import Buttonaddfavorite from './Buttonaddfavorite';
+import Buttonaddfavorite from '../buttonaddfavorite/Buttonaddfavorite';
 
 const CharacterSpecial = () => {
     const [characters, setCharacters] = useState([]);

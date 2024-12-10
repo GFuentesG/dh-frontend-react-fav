@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import { getCharacters } from '../services/getCharacters'
+import { getCharacters } from '../../services/getCharacters'
 import styles from './Characters.module.css'
-import Buttonaddfavorite from './Buttonaddfavorite'
+import Buttonaddfavorite from '../buttonaddfavorite/Buttonaddfavorite'
 import { Link } from 'react-router-dom';
 // import { useFavorite } from '../context/FavoriteContext';
 
@@ -28,6 +28,7 @@ const Characters = () => {
     <section>
       <h1 className={styles.title}>TARJETAS DE LOS PERSONAJES</h1>
       <h2 className={styles.subtitle}>Selecciona los que desees ...</h2>
+      <p>(para mas detalles del personaje haz click en la imagen)</p>
       <div className={styles.cardsContainer}>
         {characters.map((character) => (
           <article className={styles.card} key={character.id}>

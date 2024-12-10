@@ -1,10 +1,9 @@
 import React from 'react'
-import Characters from '../../components/Characters';
+import Characters from '../../components/characterrickandmorty/Characters';
 
 export const Home = () => {
     return (
         <>
-            <div>Home</div>
             <Characters/>
         </>
 
