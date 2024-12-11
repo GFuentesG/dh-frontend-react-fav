@@ -14,7 +14,7 @@ const About = () => {
         <h3 className={styles.sectionTitle}>¿Cómo funciona?</h3>
         <ul className={styles.featureList}>
           <li>
-            <strong>Seleccionar personajes:</strong> En la pagina de inicio, puedes navegar por una lista de personajes y seleccionar aquellos que te gusten para agregarlos a tu lista de favoritos.
+            <strong>Seleccionar personajes:</strong> En la pagina de inicio, puedes navegar por una lista de personajes y seleccionar aquellos que te gusten para agregarlos a tu lista de favoritos. Tambien podras hacer click en la imagen y te llevara a la pagina del personaje donde podras ver mas informacion.
           </li>
           <li>
             <strong>Iniciar sesión:</strong> Para poder seleccionar personajes especiales, primero debes iniciar sesión en la plataforma y se te mostrara una lista de personajes especiales.

@@ -4,7 +4,7 @@ Bienvenido a la aplicación de selección de personajes favoritos.
 Este proyecto permite a los usuarios seleccionar y guardar temporalmente personajes como favoritos. Además, podrás iniciar sesión y crear una lista personalizada con tus personajes más queridos.
 
 ## ¿Cómo funciona?
-- Seleccionar personajes: En la pagina de inicio, puedes navegar por una lista de personajes y seleccionar aquellos que te gusten para agregarlos a tu lista de favoritos.
+- Seleccionar personajes: En la pagina de inicio, puedes navegar por una lista de personajes y seleccionar aquellos que te gusten para agregarlos a tu lista de favoritos. Tambien podras hacer click en la imagen y te llevara a la pagina del personaje donde podras ver mas informacion.
 
 - Iniciar sesión: Para poder seleccionar personajes especiales, primero debes iniciar sesión en la plataforma y se te mostrara una lista de personajes especiales.
 
