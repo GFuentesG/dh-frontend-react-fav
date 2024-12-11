@@ -14,13 +14,13 @@ const About = () => {
         <h3 className={styles.sectionTitle}>¿Cómo funciona?</h3>
         <ul className={styles.featureList}>
           <li>
-            <strong>Iniciar sesión:</strong> Para poder guardar tus personajes favoritos, primero debes iniciar sesión en la plataforma.
+            <strong>Seleccionar personajes:</strong> En la pagina de inicio, puedes navegar por una lista de personajes y seleccionar aquellos que te gusten para agregarlos a tu lista de favoritos.
           </li>
           <li>
-            <strong>Seleccionar personajes:</strong> Puedes navegar por una lista de personajes y seleccionar aquellos que te gusten para agregarlos a tu lista de favoritos.
+            <strong>Iniciar sesión:</strong> Para poder seleccionar personajes especiales, primero debes iniciar sesión en la plataforma y se te mostrara una lista de personajes especiales.
           </li>
           <li>
-            <strong>Personajes especiales:</strong> Además de los personajes regulares, también tendrás acceso a personajes especiales que puedes agregar a tu lista.
+            <strong>Personajes especiales:</strong> Además de los personajes regulares, también tendrás acceso a personajes especiales que puedes agregar a tu lista de favoritos.
           </li>
         </ul>
 
